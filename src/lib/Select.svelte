@@ -1,6 +1,6 @@
 <script>
+    import { flip, offset, shift } from '@floating-ui/dom';
     import { beforeUpdate, createEventDispatcher, onDestroy, onMount } from 'svelte';
-    import { offset, flip, shift } from '@floating-ui/dom';
     import { createFloatingActions } from 'svelte-floating-ui';
 
     const dispatch = createEventDispatcher();
@@ -773,6 +773,7 @@
         {/if}
 
         <input
+            class="ring-0 focus:border-0 focus:outline-none focus:ring-0"
             on:keydown={handleKeyDown}
             on:blur={handleBlur}
             on:focus={handleFocus}
