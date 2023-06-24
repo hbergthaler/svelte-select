@@ -1,6 +1,6 @@
 {
     "name": "@latoo.labs/svelte-select",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "repository": "https://rob-balfre@github.com/rob-balfre/svelte-select.git",
     "description": "A <Select> component for Svelte apps",
     "scripts": {
